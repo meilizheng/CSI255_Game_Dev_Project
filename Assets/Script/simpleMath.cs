@@ -4,12 +4,8 @@ using UnityEngine;
 
 public class simpleMath : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
+    public TMPro.TextMeshProUGUI myText;
+    public int myScore;
     // Update is called once per frame
     void Update()
     {
