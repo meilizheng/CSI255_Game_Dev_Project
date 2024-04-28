@@ -17,8 +17,8 @@ Here's the resource where I learned this skill:
 - **How to add text in Unity 3D**
 - https://www.youtube.com/watch?v=SoMv-pQH2Mc
   
--** Attention: When adding text in Unity 3D, it's important to note that for compatibility with certain features, you should select the "Legacy" Text component instead of "TextMeshPro." The latter may have limitations when it comes to linking it with scripts through dragging and dropping.
- **
+**-Attention: When adding text in Unity 3D, it's important to note that for compatibility with certain features, you should select the "Legacy" Text component instead of "TextMeshPro." The latter may have limitations when it comes to linking it with scripts through dragging and dropping.**
+
  - **Creating a functional button in Unity**
  - Creating a functional button in Unity is a straightforward process:
  - Adding the Button: Begin by navigating to 'GameObject' in the Unity Editor menu, then selecting 'UI' and 'Button'. This action creates a new button in your scene.
