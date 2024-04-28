@@ -7,17 +7,19 @@ Year and Qtr: 6th quarter
 Week 4 Documentation Update:
 I've recently acquired new skills in Unity, including canvas manipulation and background image swapping. Additionally, I've mastered the incorporation of UI elements such as text and buttons, as well as scripting for basic mathematical operations. My current project has advanced to Level 1 following the completion of the main page last week. Utilizing buttons for scene navigation, I've enabled seamless transitions, like clicking "addition" on the main page to progress to Level 1.
 Here's the resource where I learned this skill:
-- How to setup Canvas in Unity 3D
+
+- **How to setup Canvas in Unity 3D**
 - https://www.youtube.com/watch?v=4MVMCNJ7hAY
   
-- How to setup a background in Unity 3D
+- **How to setup a background in Unity 3D**
 - https://www.youtube.com/watch?v=Aym7Cd_Y_9E
   
-- How to add text in Unity 3D
+- **How to add text in Unity 3D**
 - https://www.youtube.com/watch?v=SoMv-pQH2Mc
-- Attention: When adding text in Unity 3D, it's important to note that for compatibility with certain features, you should select the "Legacy" Text component instead of "TextMeshPro." The latter may have limitations when it comes to linking it with scripts through dragging and dropping.
- 
- - Creating a functional button in Unity
+  
+-** Attention: When adding text in Unity 3D, it's important to note that for compatibility with certain features, you should select the "Legacy" Text component instead of "TextMeshPro." The latter may have limitations when it comes to linking it with scripts through dragging and dropping.
+ **
+ - **Creating a functional button in Unity**
  - Creating a functional button in Unity is a straightforward process:
  - Adding the Button: Begin by navigating to 'GameObject' in the Unity Editor menu, then selecting 'UI' and 'Button'. This action creates a new button in your scene.
  - Customizing Appearance: Tailor the button's appearance to your liking by adjusting its size, position, and visual style.
