@@ -31,7 +31,7 @@ Here's the resource where I learned this skill:
  - The goals I aim to achieve.
  - [https://www.youtube.com/watch?v=DX7HyN7oJjE&t=246s](https://www.youtube.com/watch?v=4Pvc800ClOc)
 
----------------------------------------------------------------------------------Please see the documentation update below--------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------Please see the documentation update below---------------------------------------------------
 Game Development / Capstone Project Proposal
 Name: Meili Zheng
 Year and Qtr: 6th quarter
