@@ -28,7 +28,7 @@ Here's the resource where I learned this skill:
  - Attaching the Script: Connect the script to the button by dragging and dropping it onto the button object in the Unity Editor.
  - Testing: Play your game to verify that the button performs its intended function correctly when clicked.
  - Iterating and Refining: Make any necessary adjustments to the button's appearance or behavior, refining it until it meets your desired specifications.
-   The goals I aim to achieve.
+ - The goals I aim to achieve.
  - [https://www.youtube.com/watch?v=DX7HyN7oJjE&t=246s](https://www.youtube.com/watch?v=4Pvc800ClOc)
 
 ---------------------------------------------------------------------------------Please see the documentation update below--------------------------------------------------------------------------------------------------
