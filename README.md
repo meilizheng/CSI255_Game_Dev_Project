@@ -36,6 +36,7 @@
     {
         transform.position = player.transform.position + offset ;
     }
+- 
 - Edit the playmode tint color
 - let the character jump
   
