@@ -24,15 +24,7 @@
 - Add an offset to the camera position
 - -  Code:
 -  
-        horizontalInput = Input.GetAxis("Horizontal");
-        verticalInput = Input.GetAxis("Vertical");
-        //Moves the charactor forward based on vertical input
-        transform.Translate(Vector3.forward * Time.deltaTime * speed * verticalInput);
-        //Rotates the charactor base on the horizontal input
-        transform.Rotate(Vector3.up, turnSpeed * horizontalInput * Time.deltaTime);
-- Code:
-- 
-    private Vector3 offset = new Vector3(0, 2f, -7);
+        private Vector3 offset = new Vector3(0, 2f, -7);
     public GameObject player;
     void Start()
     {
@@ -42,7 +34,7 @@
     {
         transform.position = player.transform.position + offset ;
     }
-- 
+
 - Edit the playmode tint color
 - let the character jump
   
