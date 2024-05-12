@@ -17,7 +17,7 @@
         transform.Translate(Vector3.forward * Time.deltaTime * speed * verticalInput);
         //Rotates the charactor base on the horizontal input
         transform.Rotate(Vector3.up, turnSpeed * horizontalInput * Time.deltaTime);
-- 
+  
 - Add RigidBody components to objects
 - Create a new script for the camera let the camera follow the character
 - Add an offset to the camera position
