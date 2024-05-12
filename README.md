@@ -22,6 +22,14 @@
 - Create a new script for the camera let the camera follow the character
 - Add an offset to the camera position
 - Add an offset to the camera position
+- -  Code:
+-  
+        horizontalInput = Input.GetAxis("Horizontal");
+        verticalInput = Input.GetAxis("Vertical");
+        //Moves the charactor forward based on vertical input
+        transform.Translate(Vector3.forward * Time.deltaTime * speed * verticalInput);
+        //Rotates the charactor base on the horizontal input
+        transform.Rotate(Vector3.up, turnSpeed * horizontalInput * Time.deltaTime);
 - Code:
 - 
     private Vector3 offset = new Vector3(0, 2f, -7);
