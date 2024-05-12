@@ -25,15 +25,14 @@
 - -  Code:
 -  
         private Vector3 offset = new Vector3(0, 2f, -7);
-    public GameObject player;
-    void Start()
-    {
-        
-    }   
-    void LateUpdate()
-    {
-        transform.position = player.transform.position + offset ;
-    }
+       public GameObject player;
+       void Start()
+       {
+       }
+       void LateUpdate()
+       {
+           transform.position = player.transform.position + offset ;
+       }
 
 - Edit the playmode tint color
 - let the character jump
