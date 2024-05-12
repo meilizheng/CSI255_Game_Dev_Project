@@ -22,7 +22,7 @@
 - Create a new script for the camera let the camera follow the character
 - Add an offset to the camera position
 - Add an offset to the camera position
-  Code:
+- Code:
 private Vector3 offset = new Vector3(0, 2f, -7);
     public GameObject player;
     void Start()
