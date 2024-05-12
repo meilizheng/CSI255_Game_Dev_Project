@@ -9,13 +9,15 @@
 - Make character rotate instead of slide
 - Base left/right movement on input
 - Take control of the character's speed
-  Code:
+-  Code:
+-  
         horizontalInput = Input.GetAxis("Horizontal");
         verticalInput = Input.GetAxis("Vertical");
         //Moves the charactor forward based on vertical input
         transform.Translate(Vector3.forward * Time.deltaTime * speed * verticalInput);
         //Rotates the charactor base on the horizontal input
         transform.Rotate(Vector3.up, turnSpeed * horizontalInput * Time.deltaTime);
+- 
 - Add RigidBody components to objects
 - Create a new script for the camera let the camera follow the character
 - Add an offset to the camera position
