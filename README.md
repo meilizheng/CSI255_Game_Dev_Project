@@ -1,5 +1,45 @@
 # CSI255_Game_Dev_Project
+- **Week 5 documentation updated:**
+  
+- Give the character a forward motion
+- Customize the Character’s speed
+- Add a speed variable to the character
+- Allow the character to move left/right
+- Take control of the character's speed
+- Make character rotate instead of slide
+- Base left/right movement on input
+- Take control of the character's speed
+  Code:
+        horizontalInput = Input.GetAxis("Horizontal");
+        verticalInput = Input.GetAxis("Vertical");
+        //Moves the charactor forward based on vertical input
+        transform.Translate(Vector3.forward * Time.deltaTime * speed * verticalInput);
+        //Rotates the charactor base on the horizontal input
+        transform.Rotate(Vector3.up, turnSpeed * horizontalInput * Time.deltaTime);
+- Add RigidBody components to objects
+- Create a new script for the camera let the camera follow the character
+- Add an offset to the camera position
+- Add an offset to the camera position
+  Code:
+private Vector3 offset = new Vector3(0, 2f, -7);
+    public GameObject player;
+    void Start()
+    {
+        
+    }
 
+    // Update is called once per frame
+    void LateUpdate()
+    {
+        transform.position = player.transform.position + offset ;
+    }
+- Edit the playmode tint color
+- let the character jump
+  
+Here's the resource where I learned this skill:
+- week 5 class 
+- https://learn.unity.com/tutorial
+  
 ------
 This is a game development project for CSI255
 Game Development / Capstone Project Proposal
