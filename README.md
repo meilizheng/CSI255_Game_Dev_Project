@@ -1,4 +1,18 @@
 # CSI255_Game_Dev_Project
+
+--**Week 7 documentation updated:**
+- Set a boundary to control the character from falling off the ground.
+- Add obstacles. Make them fly forward when the player presses “v”.
+- Turn the projectile into a prefab.
+- Launch the projectile when “v” is pressed.
+- Created a Canvas and added text.
+- Created a new script to generate random numbers and linked it with the canvas text.
+- Every time a new game runs, the number will automatically change randomly.
+
+- Here's the resource where I learned this skill:
+- week 6 and 7 class 
+- https://learn.unity.com/tutorial
+ 
 - **Week 5 documentation updated:**
   
 - Give the character a forward motion
