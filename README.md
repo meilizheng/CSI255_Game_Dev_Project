@@ -2,7 +2,7 @@
 
 **Week 7 documentation updated:**
 - Set a boundary to control the character from falling off the ground.
-- Add obstacles. Make them fly forward when the player presses “v”.
+- Add obstacles. Make it fly forward when the player presses “v”.
 - Turn the projectile into a prefab.
 - Launch the projectile when “v” is pressed.
 - Created a Canvas and added text.
