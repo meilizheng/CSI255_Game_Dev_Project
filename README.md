@@ -1,18 +1,22 @@
 # CSI255_Game_Dev_Project
 
 **Week 7 documentation updated:**
-- Set a boundary to control the character from falling off the ground.
-- Add obstacles. Make it fly forward when the player presses “v”.
-- Turn the projectile into a prefab.
+- Set a boundary to prevent the character from falling off the ground.
+- Add an object and make it move forward when the player presses “v”.
+- Convert the projectile into a prefab.
 - Launch the projectile when “v” is pressed.
-- Created a Canvas and added text.
-- Created a new script to generate random numbers and linked it with the canvas text.
-- Every time a new game runs, the number will automatically change randomly.
+- Create a Canvas and add text elements.
+- Implement a new script to generate random numbers and update the canvas text accordingly.
+- Automatically change the number randomly every time a new game is started.
+
+Next steps:
+- Develop a new script to control the object's movement based on the character’s facing position.
+- Introduce two text elements: one for displaying the correct answer and the other for displaying the wrong answer when the correct object is hit. Increase the player's score upon hitting the correct object.
 
 - Here's the resource where I learned this skill:
 - week 6 and 7 class 
 - https://learn.unity.com/tutorial
-- 
+  
  
 - **Week 5 documentation updated:**
   
