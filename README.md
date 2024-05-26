@@ -1,6 +1,6 @@
 # CSI255_Game_Dev_Project
 
---**Week 7 documentation updated:**
+**Week 7 documentation updated:**
 - Set a boundary to control the character from falling off the ground.
 - Add obstacles. Make them fly forward when the player presses “v”.
 - Turn the projectile into a prefab.
@@ -12,6 +12,7 @@
 - Here's the resource where I learned this skill:
 - week 6 and 7 class 
 - https://learn.unity.com/tutorial
+- 
  
 - **Week 5 documentation updated:**
   
