@@ -1,19 +1,19 @@
 # CSI255_Game_Dev_Project
 **Week 9 documentation update:**
-Text Elements:
-Introduced two text elements.
-One displays the correct answer, and the other displays the wrong answer.
-When an object is hit, a notification message will display to notify the player.
-Background Music:
-Added background music to enhance the gaming experience.
-Buttons:
-Added two buttons: "Exit" and "Next".
-The "Exit" button quits the game.
-The "Next" button loads a new scene with a random number for the math operation.
+- Text Elements:
+- Introduced two text elements.
+- One displays the correct answer, and the other displays the wrong answer.
+- When an object is hit, a notification message will display to notify the player.
+- Background Music:
+- Added background music to enhance the gaming experience.
+- Buttons:
+- Added two buttons: "Exit" and "Next".
+- The "Exit" button quits the game.
+- The "Next" button loads a new scene with a random number for the math operation.
 
-Next Steps:
-Player Experience
-The next step is to focus on fine-tuning details to enhance the player's experience.
+- Next Steps:
+- Player Experience
+- The next step is to focus on fine-tuning details to enhance the player's experience.
 
 - Here's the resource where I learned this skill:
 -- https://learn.unity.com/tutorial
