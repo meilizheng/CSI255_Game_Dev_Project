@@ -16,8 +16,8 @@
 - The next step is to focus on fine-tuning details to enhance the player's experience.
 
 - Here's the resource where I learned this skill:
--- https://learn.unity.com/tutorial
--- Office hour and teacher assistance
+- https://learn.unity.com/tutorial
+- Office hour and teacher assistance
 
 
 **Week 7 documentation updated:**
