@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Animations;
 
+
 public class Slime_01 : MonoBehaviour
 {
     public GameObject projectilePrefab;
@@ -12,13 +13,10 @@ public class Slime_01 : MonoBehaviour
     private float horizontalInput;
     private float verticalInput;
 
-    public float xRange = 8.0f;
+    public float xRange = 18.0f;
 
-    public float yRange = 6.0f;
+    public float yRange = 26.0f;
 
-   
- 
-   
     // Start is called before the first frame update
     void Start()
     {
@@ -48,9 +46,7 @@ public class Slime_01 : MonoBehaviour
         if(transform.position.z > yRange)
         {
             transform.position = new Vector3(transform.position.x, transform.position.y, yRange);
-        }
-      
-
+        }       
 
         horizontalInput = Input.GetAxis("Horizontal");
         verticalInput = Input.GetAxis("Vertical");

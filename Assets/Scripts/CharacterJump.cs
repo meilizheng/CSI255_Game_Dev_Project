@@ -5,7 +5,7 @@ public class CharacterJump : MonoBehaviour
     // Declare Rigid Body
     Rigidbody rb;
     public float jumpForce;
-    public float zRange = 2.0f;
+    public float zRange = 6.0f;
 
     public float jumpSpeed = 20;
 
@@ -26,15 +26,6 @@ public class CharacterJump : MonoBehaviour
             transform.position = new Vector3(transform.position.x, transform.position.y, -zRange);
         }
 
-        // AddForce imparts X amount of force in a direction on our object
-        // Vector3 x, y ,z - 0, 1, 0
-
-        // Space
-        // When I click space, the ball bounces up
-        // Input.GetButtonDown(string) - Input Manager
-        // Triggers when the button is pressed. Just once
-        // "Jump" - 
-        // Godot Tip : In Godot the equilviant is Input.IsActionJustPressed
         if(Input.GetKeyDown(KeyCode.Space)) {
             Debug.Log("Is Jumping");
             Flap();
@@ -47,10 +38,7 @@ public class CharacterJump : MonoBehaviour
 
     } // End of Update
 
-    public void Flap() {
-            // Add force applie force in a particular direction
-            // SECOND ARGUMENT
-            // How to distribute that force
+    public void Flap() { 
             rb.AddForce(Vector3.up * jumpForce * jumpSpeed, ForceMode.Impulse);
     }
 }
