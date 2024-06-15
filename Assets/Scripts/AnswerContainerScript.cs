@@ -12,7 +12,7 @@ public class AnswerContainerScript : MonoBehaviour
 
     AnswerContainerScript answerContainerScript;
     public TMP_Text score;           
-    public float playScore = 0;
+    public static float playScore = 0;
 
     private void Start() {
         sra = FindObjectOfType<SimplyRandomAddition>();

@@ -8,12 +8,10 @@ public class ReloadedScene : MonoBehaviour
 {
     public AnswerContainerScript answerContainerScript;
     public TMP_Text scoreText; // Use scoreText to differentiate from other score-related variables
-    public float score;
+    public static float score;
 
     void Start()
-    {
-        // Find AnswerContainerScript in the scene
-        answerContainerScript = FindObjectOfType<AnswerContainerScript>();
+    {        
         UpdateScoreText();
     }
 
@@ -27,14 +25,20 @@ public class ReloadedScene : MonoBehaviour
     private void UpdateScoreText()
     {
         // Update score text component with current playScore
-        if (answerContainerScript != null)
+        if (scoreText != null)
         {
-            score = answerContainerScript.playScore;
-            scoreText.text = score.ToString();
+            scoreText.text = AnswerContainerScript.playScore.ToString();
         }
         else
         {
-            Debug.LogError("AnswerContainerScript or ScoreText is not assigned in the Inspector.");
+            Debug.LogError("ScoreText is not assigned in the Inspector.");
+        }if (scoreText != null)
+        {
+            scoreText.text = AnswerContainerScript.playScore.ToString();
+        }
+        else
+        {
+            Debug.LogError("ScoreText is not assigned in the Inspector.");
         }
     }
 }
