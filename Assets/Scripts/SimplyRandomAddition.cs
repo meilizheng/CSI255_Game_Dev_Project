@@ -12,7 +12,6 @@ public class SimplyRandomAddition : MonoBehaviour
     public TMP_Text resultTwo;
     public Text mathOperation;
 
-
     public Transform character; // The character's transform
     public Transform correctAnswer; // The correct answer's transform
     public TMP_Text notification; // UI Text element for notifications
